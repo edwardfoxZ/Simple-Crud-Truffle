@@ -54,7 +54,7 @@ export const Crud = () => {
 
   return (
     <div className="w-100 d-flex flex-column mt-5 gap-5">
-      <inputGroup className="w-50 mb-3 d-flex flex-column gap-3 mx-auto">
+      <inputGroup className="w-25 mb-3 d-flex flex-column gap-3 mx-auto">
         <form.Control
           ref={nameRef}
           aria-label="Default"
@@ -72,7 +72,7 @@ export const Crud = () => {
           Submit
         </Button>
       </inputGroup>
-      <inputGroup className="w-50 mb-3 d-flex flex-column gap-3 mx-auto">
+      <inputGroup className="w-25 mb-3 d-flex flex-column gap-3 mx-auto">
         <form.Control
           ref={updateRef}
           aria-label="Default"
@@ -90,7 +90,7 @@ export const Crud = () => {
           Update
         </Button>
       </inputGroup>
-      <inputGroup className="w-50 mb-3 d-flex flex-column gap-3 mx-auto">
+      <inputGroup className="w-25 mb-3 d-flex flex-column gap-3 mx-auto">
         <form.Control
           ref={deleteRef}
           aria-label="Default"
@@ -108,7 +108,7 @@ export const Crud = () => {
           Delete
         </Button>
       </inputGroup>
-      <inputGroup className="w-50 mb-3 d-flex flex-column gap-3 mx-auto">
+      <inputGroup className="w-25 mb-3 d-flex flex-column gap-3 mx-auto">
         <form.Control
           ref={findRef}
           aria-label="Default"
